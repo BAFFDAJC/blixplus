@@ -1,0 +1,37 @@
+:root{
+    --azul-principal: rgb(8, 71, 114);
+    --cinza-secundaria: gray;
+    --botao-azul:rgb(80, 22, 146); 
+    --cor-de-fundo:rgb(179, 98, 61);
+
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color:var(--azul-principal);
+}
+{
+    margin:0;
+    padding=0;
+}
+.principal{
+    background-image: url ("background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+.conteiner{
+    height:100vh;
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+.conteiner_botao{
+    background-color: var(--botao-vermelho);
+    border-radius: 5px;
+    color:var(--preto-principal);
+    display:block;
+}
+.botao_secundario{
+    background-color: transparent;
+border: 2px solid var(--branco-principal);
+}
